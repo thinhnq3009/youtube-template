@@ -1,0 +1,25 @@
+{
+  "name": "melody-mix-ui",
+  "version": "1.0.0",
+  "description": "MelodyMix Front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-libs": "cpx \"node_modules/{angular,bootstrap-icons,angular-*,bootstrap/dist,jquery/dist,wowjs/dist,wowjs/css/libs}/**/*\" app/assets/libs -C",
+    "start": "live-server app/",
+    "mini": "grunt"
+  },
+  "dependencies": {
+    "angular": "^1.8.2",
+    "angular-route": "1.8.x",
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.10.3",
+    "jquery": "^3.6.3",
+    "wowjs": "^1.1.3"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

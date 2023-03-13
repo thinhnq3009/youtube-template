@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="shortcut icon" href="assets/image/dark.png" type="image/x-icon" />
+
+        <!-- lib css -->
+        <link rel="stylesheet" href="assets/libs/bootstrap-icons/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="assets/libs/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="assets/libs/wowjs/css/libs/animate.css" />
+        <!-- lib css -->
+
+        <!-- Customize CSS -->
+        <link rel="stylesheet" href="assets/style/global-style.css">
+        <link rel="stylesheet" href="assets/style/default-layout.css">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="">
+        <!-- Customize CSS -->
+
+
+        <!-- libs -->
+        <script src="assets/libs/jquery/dist/jquery.js"></script>
+        <script src="assets/libs/wowjs/dist/wow.js"></script>
+        <script src="assets/libs/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="assets/libs/angular/angular.js"></script>
+        <script src="assets/libs/angular-route/angular-route.js"></script>
+        <!-- libs -->
+
+        <script>
+            new WOW().init();
+        </script>
+
+        <script src="app.module.js"></script>
+        <script src="app.config.js"></script>
+
+      
+
+        <script src="components/app-header/app-header.js"></script>
+        <link rel="stylesheet" href="components/app-header/style/app-header.css">
+        
+        <script src="components/app-guide/app-guide.js"></script>
+        <link rel="stylesheet" href="components/app-guide/style/app-guide.css">
+        <script src=""></script>
+        <script src=""></script>
+
+
+     
+
+
+        <title>MiniTube</title>
+    </head>
+
+    <body>
+        <div ng-view></div>
+    </body>
+</html>

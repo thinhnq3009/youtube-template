@@ -1,0 +1,16 @@
+.header-container {
+    height: 56px;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.guide-container {
+    padding: 12px;
+    width: 240px;
+    height: calc(100vh - 56px);
+    /* background-color: aqua; */
+}
+
+.content-container {
+    /* background-color: blueviolet; */
+}
