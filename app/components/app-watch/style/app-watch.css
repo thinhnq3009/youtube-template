@@ -1,6 +1,39 @@
-.AppWatch {
-  background-color: red;
-}
-.AppWatch .video {
+.AppWatch .video-container .video {
   border: none;
+}
+.AppWatch .video-info-container .title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.AppWatch .video-info-container .owner-avt-wrapper {
+  width: 52px;
+}
+.AppWatch .video-info-container .owner-avt-wrapper .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.AppWatch .video-info-container .owner-info {
+  margin-right: 24px;
+}
+.AppWatch .video-info-container .owner-info .channel-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0f0f0f;
+  margin-bottom: 0;
+}
+.AppWatch .video-info-container .owner-info .subscriber-count {
+  color: #606060;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.AppWatch .video-info-container .btn-subcribe {
+  height: 36px;
+  padding: 0 16px;
+  background-color: #0f0f0f;
+  color: white;
+  border-radius: 18px;
+  font-size: 14px;
+  font-weight: 500;
 }/*# sourceMappingURL=app-watch.css.map */

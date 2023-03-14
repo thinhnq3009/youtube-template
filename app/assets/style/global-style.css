@@ -11,11 +11,13 @@ body {
 
 button {
     outline: none;
+    border: none;
 }
 
 a:hover,
 a {
   color: currentColor;
+  text-decoration: unset;
 }
 
 a:hover {

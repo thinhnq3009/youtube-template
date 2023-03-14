@@ -1,10 +1,59 @@
 .AppWatch {
-    background-color: red;
 
-    .container {
+    .video-container {
+
+
+        .video {
+            border: none;
+        }
     }
 
-    .video {
-        border: none;
+    .video-info-container {
+
+        .title {
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .owner-avt-wrapper {
+            width: 52px;
+
+            .avatar {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+            }
+        }
+
+        .owner-info {
+            margin-right: 24px;
+            .channel-name {
+                font-size: 16px;
+                font-weight: 500;
+                color: #0f0f0f;
+                margin-bottom: 0;
+            }
+    
+            .subscriber-count {
+                color: #606060;
+                font-size: 12px;
+                font-weight: 400;
+                margin-bottom: 0;
+            }
+        }
+
+        .btn-subcribe {
+            height: 36px;
+            padding: 0 16px;
+            background-color: #0f0f0f;
+            color: white;
+            border-radius: 18px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
     }
+
+
+  
 }
