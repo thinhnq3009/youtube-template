@@ -7,6 +7,8 @@
             $routeProvider
                 .when("/", {
                     templateUrl: "views/home.html",
+                }).when("/watch", {
+                    templateUrl: "views/watch.html"
                 })
         },
     ]);

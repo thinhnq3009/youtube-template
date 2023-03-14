@@ -48,7 +48,7 @@
   display: flex;
   justify-content: end;
 }
-.AppHeader .center-wrapper .container {
+.AppHeader .center-wrapper .input-container {
   position: relative;
   width: 584px;
   height: 40px;
@@ -59,14 +59,14 @@
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.AppHeader .center-wrapper .container .input-icon {
+.AppHeader .center-wrapper .input-container .input-icon {
   padding: 0 12px 0 16px;
   position: absolute;
   left: 0;
   color: #030303;
   font-size: 16px;
 }
-.AppHeader .center-wrapper .container input {
+.AppHeader .center-wrapper .input-container input {
   color: #171717;
   height: 100%;
   border: none;
@@ -75,7 +75,7 @@
   font-size: 16px;
   flex: 1;
 }
-.AppHeader .center-wrapper .container .keyboard-icon {
+.AppHeader .center-wrapper .input-container .keyboard-icon {
   padding: 0 6px;
   font-size: 19px;
 }

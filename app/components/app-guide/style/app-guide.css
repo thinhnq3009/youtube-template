@@ -1,1 +1,43 @@
-/*# sourceMappingURL=app-guide.css.map */
+.AppGuide {
+  display: flex;
+  flex-direction: column;
+}
+.AppGuide .item-container {
+  display: flex;
+  flex-direction: column;
+}
+.AppGuide .item-container:not(:first-child) {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1019607843);
+}
+.AppGuide .item-container .title {
+  margin-bottom: 0;
+  display: block;
+  padding: 6px 12px 4px;
+  color: var(--yt-spec-text-primary);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 2.2rem;
+  font-weight: 400;
+}
+.AppGuide .item-wrapper {
+  margin-right: 12px;
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  color: #0f0f0f;
+  border-radius: 10px;
+}
+.AppGuide .item-wrapper:hover {
+  background-color: rgba(0, 0, 0, 0.1019607843);
+}
+.AppGuide .item-wrapper .left-icon {
+  font-size: 22px;
+  margin-right: 24px;
+}
+.AppGuide .item-wrapper .content {
+  flex: 1;
+}/*# sourceMappingURL=app-guide.css.map */

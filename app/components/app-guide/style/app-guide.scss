@@ -1,0 +1,48 @@
+.AppGuide {
+    display: flex;
+    flex-direction: column;
+
+    .item-container {
+        display: flex;
+        flex-direction: column;
+
+        &:not(:first-child) {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #0000001a;
+        }
+
+        .title {
+            margin-bottom: 0;
+            display: block;
+            padding: 6px 12px 4px;
+            color: var(--yt-spec-text-primary);
+            font-family: "Roboto", "Arial", sans-serif;
+            font-size: 16px;
+            line-height: 2.2rem;
+            font-weight: 400;
+        }
+    }
+
+    .item-wrapper {
+        margin-right: 12px;
+        width: 100%;
+        height: 40px;
+        padding: 0 12px;
+        display: flex;
+        align-items: center;
+        color: #0f0f0f;
+        border-radius: 10px;
+        &:hover {
+            background-color: #0000001a;
+        }
+        .left-icon {
+            font-size: 22px;
+            margin-right: 24px;
+        }
+
+        .content {
+            flex: 1;
+        }
+    }
+}
