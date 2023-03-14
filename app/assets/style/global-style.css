@@ -13,6 +13,15 @@ button {
     outline: none;
 }
 
+a:hover,
+a {
+  color: currentColor;
+}
+
+a:hover {
+  text-decoration: unset;
+}
+
 /* Style the scrollbar */
 ::-webkit-scrollbar {
     width: 8px;
