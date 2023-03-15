@@ -78,6 +78,14 @@
             .title {
                 font-size: 16px;
                 font-weight: 500;
+
+                white-space: wrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                line-height: 20px;
+                -webkit-line-clamp: 2; // Cross-browser support for line-clamping
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
             }
 
             .channel-name {

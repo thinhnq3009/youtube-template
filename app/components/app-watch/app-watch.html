@@ -1,17 +1,40 @@
 <div class="container AppWatch">
-    <div class="row">
-        <div class="col-md-9 watch-wrapper p-3">
+    <div class="row pt-3">
+        <div class="col-md-8 watch-wrapper px-3 pb-0">
+            <!-- Phần video đang phát -->
             <div class="video-container">
                 <video class="video w-100" src="assets/image/video.mp4" controls></video>
-                <div class="control-container"></div>
+                <div class="control-container d-none">
+                    <div class="top-control">
+                        <input class="forward w-100" type="range" />
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="left-control">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-skip-end-fill"></i>
+                            <span class="option-volumn">
+                                <i class="bi bi-volume-up-fill"></i>
+                                <input type="range" />
+                            </span>
+                            <span class="duaration"
+                                >12:58<span style="padding: 0 3px">/</span>32:45</span
+                            >
+                        </div>
+                        <div class="right-control">s</div>
+                    </div>
+                </div>
             </div>
+
+            <!-- Thông tin và action -->
             <div class="video-info-container mt-2">
-                <h1 class="title">Nhạc Chill TikTok - Những Bản Nhạc Lofi Chill Nhẹ Nhàng - Nhạc Lofi Buồn Hot Nhất Hiện
-                    Nay</h1>
-                <div class="d-flex">
-                    <div class="owner-container d-flex flex-grow-1 align-items-center">
+                <h1 class="title">
+                    Nhạc Chill TikTok - Những Bản Nhạc Lofi Chill Nhẹ Nhàng - Nhạc Lofi Buồn Hot
+                    Nhất Hiện Nay
+                </h1>
+                <div class="d-flex flex-wrap">
+                    <div class="owner-container d-flex flex-grow-1 align-items-center mb-3">
                         <div class="owner-avt-wrapper">
-                            <img class="avatar" src="assets/image/chanel.jpg" alt="Channel">
+                            <img class="avatar" src="assets/image/chanel.jpg" alt="Channel" />
                         </div>
                         <div class="owner-info">
                             <h5 class="channel-name">POPS-Anime</h5>
@@ -19,7 +42,7 @@
                         </div>
                         <button class="btn-subcribe">Đăng ký</button>
                     </div>
-                    <div class="action-container flex-grow-1 d-flex">
+                    <div class="action-container flex-grow-1 d-flex justify-content-end">
                         <div class="like-wrapper">
                             <button class="like">
                                 <i class="bi bi-hand-thumbs-up"></i>
@@ -35,12 +58,298 @@
                         </button>
                         <button class="save">
                             <i class="bi bi-journal-plus"></i>
+                            Lưu
                         </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mô tả và thời gian lượt view -->
+            <div class="description-container">
+                <div class="info-container flex-wrap">
+                    <span class="info">1.213.121 lượt xem</span>
+                    <span class="info">Đã đăng ngày 12 tháng 1, 2023</span>
+                    <span class="hashtag">#trending</span>
+                    <span class="hashtag">#viral</span>
+                </div>
+                <div class="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus obcaecati nulla
+                    natus eligendi voluptates, dolorem atque ipsam, autem commodi quidem, omnis
+                    itaque adipisci maxime sunt consequuntur quibusdam beatae vel nemo.
+                </div>
+            </div>
+
+            <!-- Phần comment -->
+            <div class="comment-container d-none d-md-block">
+                <!-- Phần viết bình luận -->
+                <div class="comment-wrapper">
+                    <div class="comment-count">1.234 bình luận</div>
+                    <div class="write-comment-box d-flex">
+                        <img class="avatar" src="assets/image/avatar.jpg" alt="Avatar" />
+                        <div class="input-wrapper flex-grow-1 d-flex flex-column">
+                            <span class="comment-box flex-grow-1 mb-2">
+                                <input
+                                    class="comment-input w-100"
+                                    type="text"
+                                    placeholder="Viết bình luận"
+                                />
+                            </span>
+                            <div class="action flex-grow-1 d-flex justify-content-end">
+                                <button class="btn-cancel">Huỷ</button>
+                                <button class="btn-submit">Bình luận</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phần hiển thị các bình luận trước-->
+                <div class="commented">
+                    <div class="comment-item">
+                        <img src="assets/image/chanel.jpg" alt="" class="avatar" />
+                        <div class="comment-info">
+                            <h6 class="owner">
+                                POPS-Anime <span class="timer">3 ngày trước</span>
+                            </h6>
+                            <div class="content">Lorem ipsum dolor sit amet.</div>
+                            <div class="action-container">
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </button>
+                                <span class="like-count">5</span>
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <img src="assets/image/chanel.jpg" alt="" class="avatar" />
+                        <div class="comment-info">
+                            <h6 class="owner">
+                                POPS-Anime <span class="timer">3 ngày trước</span>
+                            </h6>
+                            <div class="content">Lorem ipsum dolor sit amet.</div>
+                            <div class="action-container">
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </button>
+                                <span class="like-count">5</span>
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <img src="assets/image/chanel.jpg" alt="" class="avatar" />
+                        <div class="comment-info">
+                            <h6 class="owner">
+                                POPS-Anime <span class="timer">3 ngày trước</span>
+                            </h6>
+                            <div class="content">Lorem ipsum dolor sit amet.</div>
+                            <div class="action-container">
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </button>
+                                <span class="like-count">5</span>
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment-item">
+                        <img src="assets/image/chanel.jpg" alt="" class="avatar" />
+                        <div class="comment-info">
+                            <h6 class="owner">
+                                POPS-Anime <span class="timer">3 ngày trước</span>
+                            </h6>
+                            <div class="content">Lorem ipsum dolor sit amet.</div>
+                            <div class="action-container">
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                </button>
+                                <span class="like-count">5</span>
+                                <button class="action-btn">
+                                    <i class="bi bi-hand-thumbs-down"></i>
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-3 list-video-wrapper">List</div>
+        <!-- List gợi ý -->
+        <div class="col-md-4 list-video-wrapper">
+            <div class="row px-4 px-md-0">
+                <!-- 1 Video -->
+                <div class="col-md-12 mb-3 item">
+                    <a href="#!/watch">
+                       <div class="row">
+                            <div class="video-cover-image col-5 p-0">
+                                <img src="assets/image/video.png" alt="banner" />
+                                <div class="time">12:12</div>
+                            </div>
+                            <div class="detail-container d-flex col-7 p-0">
+                                <div class="detail">
+                                    <h6 class="title">
+                                        Thám Tử Lừng Danh Conan - Siêu Clip 23 - Detective Conan Tổng Hợp
+                                    </h6>
+                                    <div class="channel-name">
+                                        POPS-Anime <span><i class="bi bi-check-circle-fill"></i></span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="view">1,2 Triệu lượt xem</span>
+                                        <i class="bi bi-dot"></i>
+                                        <span class="time">5 tháng trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </a>
+                </div>
+
+                
+                <!-- 1 Video -->
+                <div class="col-md-12 mb-3 item">
+                    <a href="#!/watch">
+                       <div class="row">
+                            <div class="video-cover-image col-5 p-0">
+                                <img src="assets/image/video.png" alt="banner" />
+                                <div class="time">12:12</div>
+                            </div>
+                            <div class="detail-container d-flex col-7 p-0">
+                                <div class="detail">
+                                    <h6 class="title">
+                                        Thám Tử Lừng Danh Conan - Siêu Clip 23 - Detective Conan Tổng Hợp
+                                    </h6>
+                                    <div class="channel-name">
+                                        POPS-Anime <span><i class="bi bi-check-circle-fill"></i></span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="view">1,2 Triệu lượt xem</span>
+                                        <i class="bi bi-dot"></i>
+                                        <span class="time">5 tháng trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </a>
+                </div>
+
+                <!-- 1 Video -->
+                <div class="col-md-12 mb-3 item">
+                    <a href="#!/watch">
+                       <div class="row">
+                            <div class="video-cover-image col-5 p-0">
+                                <img src="assets/image/video.png" alt="banner" />
+                                <div class="time">12:12</div>
+                            </div>
+                            <div class="detail-container d-flex col-7 p-0">
+                                <div class="detail">
+                                    <h6 class="title">
+                                        Thám Tử Lừng Danh Conan - Siêu Clip 23 - Detective Conan Tổng Hợp
+                                    </h6>
+                                    <div class="channel-name">
+                                        POPS-Anime <span><i class="bi bi-check-circle-fill"></i></span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="view">1,2 Triệu lượt xem</span>
+                                        <i class="bi bi-dot"></i>
+                                        <span class="time">5 tháng trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </a>
+                </div>
+
+                <!-- 1 Video -->
+                <div class="col-md-12 mb-3 item">
+                    <a href="#!/watch">
+                       <div class="row">
+                            <div class="video-cover-image col-5 p-0">
+                                <img src="assets/image/video.png" alt="banner" />
+                                <div class="time">12:12</div>
+                            </div>
+                            <div class="detail-container d-flex col-7 p-0">
+                                <div class="detail">
+                                    <h6 class="title">
+                                        Thám Tử Lừng Danh Conan - Siêu Clip 23 - Detective Conan Tổng Hợp
+                                    </h6>
+                                    <div class="channel-name">
+                                        POPS-Anime <span><i class="bi bi-check-circle-fill"></i></span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="view">1,2 Triệu lượt xem</span>
+                                        <i class="bi bi-dot"></i>
+                                        <span class="time">5 tháng trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </a>
+                </div>
+
+                <!-- 1 Video -->
+                <div class="col-md-12 mb-3 item">
+                    <a href="#!/watch">
+                       <div class="row">
+                            <div class="video-cover-image col-5 p-0">
+                                <img src="assets/image/video.png" alt="banner" />
+                                <div class="time">12:12</div>
+                            </div>
+                            <div class="detail-container d-flex col-7 p-0">
+                                <div class="detail">
+                                    <h6 class="title">
+                                        Thám Tử Lừng Danh Conan - Siêu Clip 23 - Detective Conan Tổng Hợp
+                                    </h6>
+                                    <div class="channel-name">
+                                        POPS-Anime <span><i class="bi bi-check-circle-fill"></i></span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="view">1,2 Triệu lượt xem</span>
+                                        <i class="bi bi-dot"></i>
+                                        <span class="time">5 tháng trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </a>
+                </div>
+
+                <!-- 1 Video -->
+                <div class="col-md-12 mb-3 item">
+                    <a href="#!/watch">
+                       <div class="row">
+                            <div class="video-cover-image col-5 p-0">
+                                <img src="assets/image/video.png" alt="banner" />
+                                <div class="time">12:12</div>
+                            </div>
+                            <div class="detail-container d-flex col-7 p-0">
+                                <div class="detail">
+                                    <h6 class="title">
+                                        Thám Tử Lừng Danh Conan - Siêu Clip 23 - Detective Conan Tổng Hợp
+                                    </h6>
+                                    <div class="channel-name">
+                                        POPS-Anime <span><i class="bi bi-check-circle-fill"></i></span>
+                                    </div>
+                                    <div class="data">
+                                        <span class="view">1,2 Triệu lượt xem</span>
+                                        <i class="bi bi-dot"></i>
+                                        <span class="time">5 tháng trước</span>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
     </div>
 </div>
+
+<script src=""></script>

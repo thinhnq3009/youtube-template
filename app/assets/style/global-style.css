@@ -12,6 +12,7 @@ body {
 button {
     outline: none;
     border: none;
+    background: #0000000d;
 }
 
 a:hover,

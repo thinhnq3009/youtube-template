@@ -10,6 +10,9 @@
                 }).when("/watch", {
                     templateUrl: "views/watch.html"
                 })
+                .when("/history", {
+                    templateUrl: "views/history.html"
+                })
         },
     ]);
 })();
