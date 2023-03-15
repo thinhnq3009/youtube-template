@@ -12,6 +12,8 @@
                 })
                 .when("/history", {
                     templateUrl: "views/history.html"
+                }).when("/library", {
+                    templateUrl: "views/library.html"
                 })
         },
     ]);

@@ -35,9 +35,10 @@
   background-color: rgba(0, 0, 0, 0.1019607843);
 }
 .AppGuide .item-wrapper .left-icon {
-  font-size: 22px;
+  font-size: 21px;
   margin-right: 24px;
 }
 .AppGuide .item-wrapper .content {
   flex: 1;
+  font-size: 14px;
 }/*# sourceMappingURL=app-guide.css.map */
