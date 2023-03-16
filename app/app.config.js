@@ -22,6 +22,10 @@
                     templateUrl: "views/reset-password.html"
                 }).when("/new-password", {
                     templateUrl: "views/new-password.html"
+                }).when("/profile", {
+                    templateUrl: "views/profile.html"
+                }).when("/upload", {
+                    templateUrl: "views/upload.html"
                 })
         },
     ]);

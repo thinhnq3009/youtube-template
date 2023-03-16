@@ -146,4 +146,21 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 16px;
+}
+.AppHeader .not-login a,
+.AppHeader .not-login button {
+  padding: 0 16px;
+  background-color: transparent;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #065fd4;
+  color: #065fd4;
+  line-height: 24px;
+}
+.AppHeader .not-login a .bi,
+.AppHeader .not-login button .bi {
+  font-size: 20px;
+  margin-right: 5px;
 }/*# sourceMappingURL=app-header.css.map */

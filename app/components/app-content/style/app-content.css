@@ -12,9 +12,13 @@
   background: rgba(0, 0, 0, 0.1019607843);
   border-radius: 10px;
   font-size: 14px;
+  cursor: pointer;
 }
 .AppContent .suggest-container .item:not(:first-child) {
   margin-left: 0;
+}
+.AppContent .suggest-container .item:hover {
+  background: rgba(0, 0, 0, 0.1647058824);
 }
 .AppContent .list-video-container .item:hover .detail::after {
   display: block;

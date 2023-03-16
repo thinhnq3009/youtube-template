@@ -10,9 +10,9 @@
 }
 
 .guide-container {
-    position: fixed;
+    /* position: fixed;
     top: 65px;
-    left: 0;
+    left: 0; */
     padding: 12px;
     width: 240px;
     height: calc(100vh - 56px);
@@ -21,7 +21,7 @@
 }
 
 .content-container {
-    margin-left: 240px;
+    /* margin-left: 240px; */
     margin-top: 56px;
     /* background-color: blueviolet; */
 }

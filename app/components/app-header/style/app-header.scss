@@ -147,9 +147,6 @@
                 padding: 0 4px;
                 border-radius: 10px;
                 border: 2px solid #fff;
-
-                
-
             }
         }
 
@@ -160,6 +157,25 @@
                 height: 32px;
                 object-fit: contain;
                 border-radius: 16px;
+            }
+        }
+    }
+
+    .not-login {
+        a,
+        button {
+            padding: 0 16px;
+            background-color: transparent;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            border: 1px solid #065fd4;
+            color: #065fd4;
+            line-height: 24px;
+            .bi {
+                font-size: 20px;
+                margin-right: 5px;
             }
         }
     }
