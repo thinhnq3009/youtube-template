@@ -16,7 +16,7 @@
         <!-- Customize CSS -->
         <link rel="stylesheet" href="assets/style/global-style.css" />
         <link rel="stylesheet" href="assets/style/default-layout.css" />
-        <link rel="stylesheet" href="" />
+        <link rel="stylesheet" href="assets/style/loading.css" />
         <link rel="stylesheet" href="" />
         <!-- Customize CSS -->
 
@@ -51,17 +51,32 @@
         <link rel="stylesheet" href="components/app-watch/style/app-watch.css" />
 
         <script src="components/app-history/app-history.js"></script>
-        <link rel="stylesheet" href="components/app-history/style/app-history.css">
+        <link rel="stylesheet" href="components/app-history/style/app-history.css" />
 
         <script src="components/app-library/app-library.js"></script>
-        <link rel="stylesheet" href="components/app-library/style/app-library.css">
+        <link rel="stylesheet" href="components/app-library/style/app-library.css" />
 
-        
+        <script src="components/app-login/app-login.js"></script>
+        <link rel="stylesheet" href="components/app-login/style/app-login.css" />
+
+        <script src="components/app-signup/app-signup.js"></script>
+        <link rel="stylesheet" href="components/app-signup/style/app-signup.css" />
+
+        <script src="components/reset-password/reset-password.js"></script>
+        <link rel="stylesheet" href="components/reset-password/style/reset-password.css" />
+
+        <script src="components/new-password/new-password.js"></script>
+        <link rel="stylesheet" href="components/new-password/style/new-password.css" />
 
         <title>MiniTube</title>
     </head>
 
     <body>
         <div ng-view></div>
+        <div class="loading-container d-none">
+            <img src="assets/image/loading.svg" alt="" />
+        </div>
+
+        <script src="script/toggle-password-input.js"></script>
     </body>
 </html>

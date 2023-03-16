@@ -14,6 +14,14 @@
                     templateUrl: "views/history.html"
                 }).when("/library", {
                     templateUrl: "views/library.html"
+                }).when("/signin", {
+                    templateUrl: "views/signin.html"
+                }).when("/signup", {
+                    templateUrl: "views/signup.html"
+                }).when("/reset-password", {
+                    templateUrl: "views/reset-password.html"
+                }).when("/new-password", {
+                    templateUrl: "views/new-password.html"
                 })
         },
     ]);
