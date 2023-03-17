@@ -28,6 +28,8 @@
                     templateUrl: "views/upload.html"
                 }).when("/my-profile", {
                     templateUrl: "views/my-profile.html"
+                }).when("/update-password", {
+                    templateUrl: "views/update-password.html"
                 })
         },
     ]);
