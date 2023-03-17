@@ -163,4 +163,49 @@
 .AppHeader .not-login button .bi {
   font-size: 20px;
   margin-right: 5px;
+}
+.AppHeader .notice-container {
+  width: 90% !important;
+  max-width: 480px !important;
+  overflow: hidden;
+}
+.AppHeader .notice-container li,
+.AppHeader .notice-container a {
+  width: 100%;
+}
+.AppHeader .notice-container .notice-item {
+  padding: 10px 24px 10px 8px;
+}
+.AppHeader .notice-container .new {
+  font-size: 16px;
+  padding-top: 12px;
+  margin-right: -5px;
+  color: #065fd4;
+}
+.AppHeader .notice-container .avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.AppHeader .notice-container .notice-wrapper {
+  width: 285px;
+}
+.AppHeader .notice-container .notice-content {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.AppHeader .notice-container .notice-time {
+  font-size: 12px;
+}
+.AppHeader .notice-container .poster img {
+  margin-left: 16px;
+  margin-right: 16px;
+  width: 86px;
+  border-radius: 5px;
 }/*# sourceMappingURL=app-header.css.map */

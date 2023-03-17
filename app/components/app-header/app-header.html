@@ -23,13 +23,100 @@
         <i class="mic-icon bi bi-mic-fill"></i>
     </div>
     <div class="right-wrapper d-flex">
-        <div class="item avatar">
+        <div
+            class="item avatar"
+            id="account-action"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+        >
             <img src="assets/image/avatar.jpg" alt="avatar" />
         </div>
-        <div class="item">
+        <ul class="dropdown-menu" aria-labelledby="account-action">
+            <li>
+                <a class="dropdown-item icon-wrapper" href="#"
+                    ><i class="bi bi-play-btn me-3"></i> Kênh của bạn</a
+                >
+            </li>
+            <li>
+                <a class="dropdown-item icon-wrapper" href="#"
+                    ><i class="bi bi-person-bounding-box me-3"></i> Thông tin tài khoản</a
+                >
+            </li>
+            <li>
+                <a class="dropdown-item icon-wrapper" href="#">
+                    <i class="bi bi-key me-3"></i> Đổi mật khẩu</a
+                >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+                <a class="dropdown-item icon-wrapper" href="#!/signin"
+                    ><i class="bi-box-arrow-in-right me-3"></i>Đăng xuất</a
+                >
+            </li>
+        </ul>
+        <div class="item" id="notice-container" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bi bi-bell"></i>
             <span class="badeg">9+</span>
         </div>
+        <ul class="dropdown-menu notice-container" aria-labelledby="notice-container">
+            <li>
+                <a class="dropdown-item p-0">
+                    <div class="notice-item d-flex">
+                        <span class="new"><i class="bi bi-dot"></i></span>
+                        <div class="avatar">
+                            <img src="assets/image/chanel.jpg" alt="">
+                        </div>
+                        <div class="notice-wrapper flex-grow-1">
+                            <h3 class="notice-content w-100 overflow-hidden">
+                                POPS-Anime đã tải lên: Doraemon - Nobita và những chuyến phiêu lưu kỳ diệu
+                            </h3>
+                            <div class="notice-time">1 giờ trước</div>
+                        </div>
+                        <div class="poster">
+                            <img src="assets/image/video.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item p-0">
+                    <div class="notice-item d-flex">
+                        <span class="new"><i class="bi bi-dot"></i></span>
+                        <div class="avatar">
+                            <img src="assets/image/chanel.jpg" alt="">
+                        </div>
+                        <div class="notice-wrapper flex-grow-1">
+                            <h3 class="notice-content w-100 overflow-hidden">
+                                POPS-Anime đã tải lên: Doraemon - Nobita và những chuyến phiêu lưu kỳ diệu
+                            </h3>
+                            <div class="notice-time">1 giờ trước</div>
+                        </div>
+                        <div class="poster">
+                            <img src="assets/image/video.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="dropdown-item p-0">
+                    <div class="notice-item d-flex">
+                        <span class="new"><i class="bi bi-dot"></i></span>
+                        <div class="avatar">
+                            <img src="assets/image/chanel.jpg" alt="">
+                        </div>
+                        <div class="notice-wrapper flex-grow-1">
+                            <h3 class="notice-content w-100 overflow-hidden">
+                                POPS-Anime đã tải lên: Doraemon - Nobita và những chuyến phiêu lưu kỳ diệu
+                            </h3>
+                            <div class="notice-time">1 giờ trước</div>
+                        </div>
+                        <div class="poster">
+                            <img src="assets/image/video.png" alt="">
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
         <a href="#!/upload">
             <div class="item">
                 <i class="bi bi-cloud-arrow-up-fill"></i>

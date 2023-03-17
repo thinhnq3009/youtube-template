@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy-libs": "cpx \"node_modules/{angular,bootstrap-icons,angular-*,bootstrap/dist,jquery/dist,wowjs/dist,wowjs/css/libs}/**/*\" app/assets/libs -C",
+    "copy": "cpx \"node_modules/{@popperjs, angular,bootstrap-icons,angular-*,bootstrap/dist,jquery/dist,wowjs/dist,wowjs/css/libs}/**/*\" app/assets/libs -C",
     "start": "live-server app/ --port=13009",
     "mini": "grunt"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
     "angular": "^1.8.2",
     "angular-route": "1.8.x",
     "bootstrap": "^5.0.2",

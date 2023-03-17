@@ -26,6 +26,8 @@
                     templateUrl: "views/profile.html"
                 }).when("/upload", {
                     templateUrl: "views/upload.html"
+                }).when("/my-profile", {
+                    templateUrl: "views/my-profile.html"
                 })
         },
     ]);

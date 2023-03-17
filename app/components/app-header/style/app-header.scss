@@ -179,4 +179,57 @@
             }
         }
     }
+
+    .notice-container {
+        width: 90% !important;
+        max-width: 480px !important;
+        overflow: hidden;
+
+        li,
+        a {
+            width: 100%;
+        }
+
+        .notice-item {
+            padding: 10px 24px 10px 8px;
+        }
+
+        .new {
+            font-size: 16px;
+            padding-top: 12px;
+            margin-right: -5px;
+            color: #065fd4;
+        }
+
+        .avatar img {
+            width: 48px;
+            height: 48px;
+            border-radius: 24px;
+        }
+        .notice-wrapper {
+            width: 285px;
+        }
+
+        .notice-content {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-bottom: 0;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+            white-space: normal;        
+        }
+
+        .notice-time {
+            font-size: 12px;
+        }
+
+        .poster img {
+            margin-left: 16px;
+            margin-right: 16px;
+            width: 86px;
+            border-radius: 5px;
+        }
+    }
 }
