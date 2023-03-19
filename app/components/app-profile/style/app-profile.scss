@@ -50,6 +50,10 @@
 
         .video-item {
             margin-bottom: 24px;
+
+            &:hover .menu {
+                display: flex;
+            }
         }
 
         .title-container {
@@ -110,7 +114,8 @@
 
         .detail-container {
             padding: 8px 0 8px 0;
-
+            padding-right: 30px;
+            position: relative;
             .title {
                 font-size: 14px;
 
@@ -123,11 +128,31 @@
                 display: -webkit-box;
                 -webkit-box-orient: vertical;
             }
-
             .data,
             .channel-name {
                 color: #606060;
                 font-size: 12px;
+            }
+
+            .menu {
+                position: absolute;
+                right: 5px;
+                top: 8px;
+                display: none;
+                .bi {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.2rem;
+                    width: 30px;
+                    height: 30px;
+
+                    &:hover {
+                        border-radius: 50%;
+                        background-color: #0000001a;
+                    }
+                    
+                }
             }
         }
     }

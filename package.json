@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy": "cpx \"node_modules/{@popperjs, angular,bootstrap-icons,angular-*,bootstrap/dist,jquery/dist,wowjs/dist,wowjs/css/libs}/**/*\" app/assets/libs -C",
+    "copy_libs": "cpx \"node_modules/{@popperjs,angular,bootstrap-icons,angular-*,bootstrap,jquery/dist,wowjs/dist,wowjs/css/libs}/**/*\" app/assets/libs -C",
+    "chart": "cpx \"node_modules/chart.js/**/*\" app/assets/libs/chart.js",
+    "copy": "npm run copy_libs && npm run chart",
     "start": "live-server app/ --port=13009",
     "mini": "grunt"
   },
@@ -15,6 +17,7 @@
     "angular-route": "1.8.x",
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.10.3",
+    "chart.js": "^4.2.1",
     "jquery": "^3.6.3",
     "live-server": "^1.2.2",
     "wowjs": "^1.1.3"

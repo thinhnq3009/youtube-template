@@ -1,3 +1,7 @@
+:root {
+  --bs-red: #f00;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -43,10 +47,23 @@ input {
   align-items: center;
 }
 
-.icon-wrapper i{
+.icon-wrapper i {
   font-size: 22px;
 }
 
+.poiter {
+  cursor: pointer;
+}
+
+.bg-blue {
+  background-color: #1877f2 !important;
+  color: white !important;
+}
+
+.bg-red {
+  background-color: #f00 !important;
+  color: white !important;
+}
 
 /* Style the scrollbar */
 ::-webkit-scrollbar {

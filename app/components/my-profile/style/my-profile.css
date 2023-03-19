@@ -26,7 +26,7 @@
 }
 .MyProfile .profile-container .profile-item .content textarea,
 .MyProfile .profile-container .profile-item .content input {
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem 0.9rem;
   background: rgba(0, 0, 0, 0.1137254902);
   width: 100%;
   border-radius: 5px;

@@ -47,6 +47,9 @@
 .AppProfile .video-container .video-item {
   margin-bottom: 24px;
 }
+.AppProfile .video-container .video-item:hover .menu {
+  display: flex;
+}
 .AppProfile .video-container .title-container {
   margin-top: 24px;
   margin-bottom: 24px;
@@ -100,6 +103,8 @@
 }
 .AppProfile .video-container .detail-container {
   padding: 8px 0 8px 0;
+  padding-right: 30px;
+  position: relative;
 }
 .AppProfile .video-container .detail-container .title {
   font-size: 14px;
@@ -115,4 +120,22 @@
 .AppProfile .video-container .detail-container .channel-name {
   color: #606060;
   font-size: 12px;
+}
+.AppProfile .video-container .detail-container .menu {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  display: none;
+}
+.AppProfile .video-container .detail-container .menu .bi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 30px;
+  height: 30px;
+}
+.AppProfile .video-container .detail-container .menu .bi:hover {
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1019607843);
 }/*# sourceMappingURL=app-profile.css.map */
