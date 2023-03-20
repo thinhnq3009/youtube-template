@@ -19,6 +19,7 @@
     "bootstrap-icons": "^1.10.3",
     "chart.js": "^4.2.1",
     "jquery": "^3.6.3",
+    "jquery-validation": "^1.19.5",
     "live-server": "^1.2.2",
     "wowjs": "^1.1.3"
   },
