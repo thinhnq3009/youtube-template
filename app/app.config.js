@@ -30,7 +30,10 @@
                     templateUrl: "views/my-profile.html"
                 }).when("/update-password", {
                     templateUrl: "views/update-password.html"
+                }).when("/update-video", {
+                    templateUrl: "views/update-video.html"
                 })
+
         },
     ]);
 })();
